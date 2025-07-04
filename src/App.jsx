@@ -3,12 +3,14 @@
 import Greeting from "./components/Greeting";
 function App() {
  
-  const name = 'Barani';
-  const email = 'barani@gmail.com';
-
+   function datafromChild(name, email) {
+    console.log(name, email);
+   }
   return (
     <>
-       <Greeting name={name} email={email} />
+       <Greeting 
+          datafromChild={datafromChild}
+       />
       
     </>
   
