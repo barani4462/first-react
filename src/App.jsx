@@ -3,11 +3,12 @@
 import Greeting from "./components/Greeting";
 function App() {
  
-  const loggedInUser = 'Barani';
+  const name = 'Barani';
+  const email = 'barani@gmail.com';
 
   return (
     <>
-       <Greeting loggedInUser={loggedInUser} />
+       <Greeting name={name} email={email} />
       
     </>
   

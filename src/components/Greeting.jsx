@@ -1,11 +1,11 @@
-function Greeting(props) {
+function Greeting({ name, email }) {
 
-    console.log(props);
+    
 
   return (
    <>
-     <h1>hello {props.loggedInUser}! </h1>
-     <p>This is my first components</p>
+     <h1>hello {name}!</h1>
+     <p>Your Logged in using {email}</p>
      
    </>
   )
