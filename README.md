@@ -39,3 +39,50 @@
 
 - The Virtual DOM is a lightweight copy of the actual DOM.
 - It allows React to update the UI efficiently by only re-rendering the components that have changed.
+
+React Repo for FSD-C-WE-T-B23
+
+## setup to initialize the project as a Git Repo
+
+1.**Initialize Git**: open your terminal and navoigate to the project directory. Run:
+
+'''base
+git init
+''''
+
+2. Visit [GitHup](http://githup.com) and create a new repository. Do not initialize it with a README, .gitignore, or license.
+
+3.**Add Remote Orgin**: After creating the repository ,copy the remote URL and run:
+
+'''base
+git remote add orgin <your-repo-url>
+
+4.**Rename the default branch**: If your Git version is 2.28 or later, you can set the default branch name to 'main' by running.
+
+'''base
+git branch -M main
+
+5.**ADD Files**: Add all files to the staging area:
+
+'''base
+git add .
+''''
+
+6.**Commit Changes**: Commit the changes  with a message:
+
+'''''base
+git commit -m "Initial commit"
+
+7.**Push to GitHub**: Finally, puse your changes to the remote repository:
+'''''base
+git puse -u origin main
+'''
+
+#### Component
+
+-Component are the building blocks of REact applications.
+- They are reusable pieces of code that can be composed to create complex UIs.
+
+#### JSX
+
+-JavScript XML (JSX) is a syntax extension for JavaScript that allows you to write HTML-LIKe code within JavaScirpt.
