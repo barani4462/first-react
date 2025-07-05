@@ -1,18 +1,25 @@
 //day 1:
 
-import Greating from "./componenets/Greating";
-
 // components - functional componenets and class componenets
 // functional componenets is the preferred way to create components in React 
 
-
+import Greating from "./componenets/Greating";
 function App() {
+  //  const loggedInUser = {
+  //   name: 'barani',
+  //   email: 'barani@gmail.com',
+  //  };
+  function dataFromChild(name, email) {
+    console.log(name, email);
+  }
+  
   return (
  <>
-  <Greating />
-  
- 
- </>
+ {/* <Greating loggedInuser={loggedInUser}/> */}
+  <Greating 
+  dataFromChild={dataFromChild}
+  />
+  </>
   
   )
 }

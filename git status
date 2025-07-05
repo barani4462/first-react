@@ -1,0 +1,29 @@
+[33mcommit c6214e67e7f1886226b0caf0ddddb835c06f3e0c[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: barani4462 <baranimca4462@gmail.com>
+Date:   Sat Jul 5 17:45:07 2025 +0530
+
+    add variable and function
+
+[33mcommit 46572296cf8a209bcac4f17235d2347dfa607670[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: barani4462 <baranimca4462@gmail.com>
+Date:   Fri Jul 4 16:32:30 2025 +0530
+
+    data from child to parent
+
+[33mcommit fe45d3265515568d73b29c2fc322cd28db2f6b35[m
+Author: barani4462 <baranimca4462@gmail.com>
+Date:   Fri Jul 4 16:09:34 2025 +0530
+
+    passing data as props
+
+[33mcommit a985fe0181fa4468e038b7005463264f91497ed5[m
+Author: barani4462 <baranimca4462@gmail.com>
+Date:   Fri Jul 4 15:52:31 2025 +0530
+
+    basic
+
+[33mcommit fa665202bc9c7e77ebdba5e19d5ae72799c90c3c[m
+Author: barani4462 <baranimca4462@gmail.com>
+Date:   Fri Jul 4 14:39:17 2025 +0530
+
+    initial react app setup --done
