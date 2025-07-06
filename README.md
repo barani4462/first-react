@@ -86,3 +86,12 @@ git puse -u origin main
 #### JSX
 
 -JavScript XML (JSX) is a syntax extension for JavaScript that allows you to write HTML-LIKe code within JavaScirpt.
+
+### Props Drilling
+
+ - Props drilling refers to the process of passing data from a parent component to a deeply nested child componenets through multiple layer of components.
+
+ componenets (data) 
+    -return Componenets (data) 
+           -return Componenets (data) 
+                    -return Componenets (data) 

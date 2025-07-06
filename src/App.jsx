@@ -1,53 +1,63 @@
 //day 1:
 
+import CompB from "./componenets/CompB";
+
 // components - functional componenets and class componenets
 // functional componenets is the preferred way to create components in React 
 
-import Greating from "./componenets/Greating";
+// import Greating from "./componenets/Greating";
+// function App() {
+//   //  const loggedInUser = {
+//   //   name: 'barani',
+//   //   email: 'barani@gmail.com',
+//   //  };
+//   function dataFromChild(name, email) {
+//     console.log(name, email);
+//   }
+  
+//   return (
+//  <>
+//  {/* <Greating loggedInuser={loggedInUser}/> */}
+//   <Greating 
+//   dataFromChild={dataFromChild}
+//   />
+//   </>
+  
+//   )
+// }
+
+// export default App;
+
+// Day 3:
+
+
 function App() {
-  //  const loggedInUser = {
-  //   name: 'barani',
-  //   email: 'barani@gmail.com',
-  //  };
-  function dataFromChild(name, email) {
-    console.log(name, email);
-  }
-  
-  return (
- <>
- {/* <Greating loggedInuser={loggedInUser}/> */}
-  <Greating 
-  dataFromChild={dataFromChild}
+
+  const message = "React is Awesome";
+  return <CompB 
+  message={message}
   />
-  </>
-  
-  )
 }
 
 export default App;
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Day 2:
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Day 3:
  
 // import compB from "./components/compB";
 
